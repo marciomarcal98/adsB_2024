@@ -1,0 +1,42 @@
+.primeira_div {
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+
+    width: 300px;
+    height: 300px;
+
+    /* shorthand => vários valores na mesma linha para a mesma propriedade */
+
+    /* para todos os lados */
+    /* padding: 20px; */
+
+    /* primeiro valor -> top e bottom / segundo valor -> left e right */
+    /* padding: 30px 20px; */
+
+    /* 3 valores: primeiro => top / segundo => left e right / terceiro => bottom */
+    /* padding: 50px 20px 100px; */
+
+    /* 4 valores: top / right / bottom / left */
+    padding: 10px 20px 30px 40px;
+}
+
+.segunda_div {
+    border: 2px dotted blue;
+
+    width: 600px;
+    height: 200px;
+    
+    /* padding => espaço entre a borda e o conteúdo. Aplicado para todos os lados da caixa */
+    padding: 20px;
+
+    /* padding somente em cima */
+    /* padding-top: 30px; */
+
+    /* padding somente na esquerda */
+    /* padding-left: 50px; */
+
+    /* margin => distância entre os elementos */
+    margin: 0 auto;
+}
+
