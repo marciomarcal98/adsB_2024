@@ -19,13 +19,18 @@
 
     /* 4 valores: top / right / bottom / left */
     padding: 10px 20px 30px 40px;
+
+    /* border radius para todos os lados */
+    border-radius: 30px;
 }
 
 .segunda_div {
     border: 2px dotted blue;
 
-    width: 600px;
+    width: 200px;
     height: 200px;
+
+    border-radius: 50%;
     
     /* padding => espaço entre a borda e o conteúdo. Aplicado para todos os lados da caixa */
     padding: 20px;
